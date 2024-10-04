@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #B7E0FF;
+}
+
+.container {
+    border: 5px solid #3A6D8C; /* Borda para o container */
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #B7E0FF;
+    max-width: 600px; /* Largura máxima para o conteúdo */
+    margin: auto; /* Centraliza o conteúdo */
+}
+
+h1, h2 {
+    color: #3A6D8C; /* Cor do título */
+    text-align: center;
+    
+}
+
+h2 {
+    margin-top: 20px; /* Espaço acima do título h2 */
+}
+
+.meal-section {
+    margin-bottom: 20px;
+}
+
+.back-link {
+    text-align: center;
+    margin-top: 20px; /* Espaço acima do link de voltar */
+}
+
+.back-link a {
+    color: #3A6D8C; /* Cor do link */
+    text-decoration: none; /* Remove o sublinhado */
+    font-size: 18px;
+}
+
+.day-button {
+    display: block; /* Faz com que o botão ocupe a largura total */
+    background-color: #3A6D8C; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 20px; /* Aumenta o padding para botões maiores */
+    text-align: center; /* Centraliza o texto */
+    font-size: 20px; /* Aumenta o tamanho da fonte */
+    margin: 10px 0; /* Margem entre os botões */
+    border: none; /* Remove borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Indica que é clicável */
+    width: 100%; /* Faz o botão ocupar toda a largura da div */
+}
+
+.day-button:hover {
+    background-color: #2F5467; /* Cor do botão ao passar o mouse */
+}
+
+p {
+    color: #16325B; /* Cor do texto dos parágrafos */
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px; /* Reduzir o padding em dispositivos móveis */
+    }
+
+    h1, h2 {
+        font-size: 24px; /* Ajusta o tamanho da fonte dos títulos */
+    }
+
+    .back-link a {
+        font-size: 16px; /* Ajusta o tamanho da fonte do link */
+    }
+}
